@@ -1,0 +1,25 @@
+.mainPage {
+    background-image: url('./MainPagePhoto.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.jumpInBtn {
+    background-color: red;
+    width: 10rem;
+    height: 3rem;
+    border-radius: 8rem;
+    font-size: xx-large;
+    display: flex;
+    justify-content: center;
+    margin-top: 80%;
+    margin-left: 40%;
+    font-family: 'Creepster', cursive;
+}
+.mainpageText {
+    font-size: xx-large;
+}
+.diveLetters {
+    display: inline-block;
+    font-family: 'Nosifer', cursive;
+    color: red;
+}
