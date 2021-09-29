@@ -1,0 +1,33 @@
+.survivedPage {
+    background-image: url('./survived.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.survivedText {
+    font-size: xx-large;
+    color: rgb(187, 136, 8);
+}
+.homeBtn {
+    background-color: red;
+    width: 10rem;
+    height: 3rem;
+    border-radius: 8rem;
+    font-size: xx-large;
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+    margin-left: 40%;
+    font-family: 'Creepster', cursive;
+}
+.infoBoxSurvived {
+    width: 40rem;
+    height: 15rem;
+    background-color: gold;
+    margin-top: 45%;
+    margin-left: 25%;
+    border: black solid 0.5rem;
+    border-radius: 4rem;
+}
+.survivedTextTwo {
+    font-size: larger;
+}
