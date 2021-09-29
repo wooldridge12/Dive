@@ -9,7 +9,9 @@ export const SurvivedPageList = () => {
         <div className="survivedPage">
             <div className="survivedText">
                 CONGRADULATIONS!!!
-            </div> <div className="survivedTextTwo">Pushing down on a sharks head and pushing yourself up is a recommended way of surviving a sharks thrust to eat you alive!</div>
+            </div> 
+            <div className="survivedTextTwo">Pushing down on a sharks head and pushing yourself up is a recommended way of surviving a sharks thrust to eat you alive!
+            </div>
             <div className="infoBoxSurvived"></div>
             <button className="homeBtn"
                 onClick={() => {

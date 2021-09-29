@@ -9,8 +9,8 @@ export const DecisionPageList = () => {
         <div className="decisionpage">
             <div className="decisionpageTopWords">A decison needs to be made! Will you make the right one?</div>
             <button className="upBtn"
-            onClick={() => {
-                history.push({pathname:"/survived"})
+                onClick={() => {
+                    history.push({pathname:"/survived"})
             }}> 
                 Up
             </button>
@@ -20,7 +20,10 @@ export const DecisionPageList = () => {
             <button className="rightBtn">
                 Right
             </button>
-            <button className="downBtn">
+            <button className="downBtn"
+                onClick={() => {
+                    history.push({pathname:"/eaten"})
+                }}>
                 Down
             </button>
         </div>
