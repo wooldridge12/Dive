@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Dive/static/css/main.f7e98971.chunk.css",
-    "main.js": "/Dive/static/js/main.60e32169.chunk.js",
-    "main.js.map": "/Dive/static/js/main.60e32169.chunk.js.map",
+    "main.js": "/Dive/static/js/main.a8bc8633.chunk.js",
+    "main.js.map": "/Dive/static/js/main.a8bc8633.chunk.js.map",
     "runtime-main.js": "/Dive/static/js/runtime-main.dd71f3aa.js",
     "runtime-main.js.map": "/Dive/static/js/runtime-main.dd71f3aa.js.map",
     "static/js/2.4f8446b6.chunk.js": "/Dive/static/js/2.4f8446b6.chunk.js",
@@ -19,6 +19,6 @@
     "static/js/runtime-main.dd71f3aa.js",
     "static/js/2.4f8446b6.chunk.js",
     "static/css/main.f7e98971.chunk.css",
-    "static/js/main.60e32169.chunk.js"
+    "static/js/main.a8bc8633.chunk.js"
   ]
 }
