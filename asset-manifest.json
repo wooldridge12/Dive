@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/Dive/static/css/main.f7e98971.chunk.css",
+    "main.js": "/Dive/static/js/main.60e32169.chunk.js",
+    "main.js.map": "/Dive/static/js/main.60e32169.chunk.js.map",
+    "runtime-main.js": "/Dive/static/js/runtime-main.dd71f3aa.js",
+    "runtime-main.js.map": "/Dive/static/js/runtime-main.dd71f3aa.js.map",
+    "static/js/2.4f8446b6.chunk.js": "/Dive/static/js/2.4f8446b6.chunk.js",
+    "static/js/2.4f8446b6.chunk.js.map": "/Dive/static/js/2.4f8446b6.chunk.js.map",
+    "index.html": "/Dive/index.html",
+    "static/css/main.f7e98971.chunk.css.map": "/Dive/static/css/main.f7e98971.chunk.css.map",
+    "static/js/2.4f8446b6.chunk.js.LICENSE.txt": "/Dive/static/js/2.4f8446b6.chunk.js.LICENSE.txt",
+    "static/media/MainPageList.css": "/Dive/static/media/MainPagePhoto.531af907.png",
+    "static/media/EatenPageList.css": "/Dive/static/media/eaten.ba88165d.png",
+    "static/media/DecisionPageList.css": "/Dive/static/media/shark.7963bba2.png",
+    "static/media/SurvivedPageList.css": "/Dive/static/media/survived.ad9e14d9.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.dd71f3aa.js",
+    "static/js/2.4f8446b6.chunk.js",
+    "static/css/main.f7e98971.chunk.css",
+    "static/js/main.60e32169.chunk.js"
+  ]
+}
