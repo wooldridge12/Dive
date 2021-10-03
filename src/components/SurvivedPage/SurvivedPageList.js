@@ -15,7 +15,7 @@ export const SurvivedPageList = () => {
             <div className="infoBoxSurvived"></div>
             <button className="homeBtn"
                 onClick={() => {
-                    history.push({pathname:"/"})
+                    history.push({pathname:"/Dive"})
                 }}>HOME</button>
         </div>
         
