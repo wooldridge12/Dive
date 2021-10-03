@@ -14,12 +14,12 @@ export const DecisionPageList = () => {
             }}> 
                 Up
             </button>
-            <button className="leftBtn">
+            {/* <button className="leftBtn">
                 Left
             </button>
             <button className="rightBtn">
                 Right
-            </button>
+            </button> */}
             <button className="downBtn"
                 onClick={() => {
                     history.push({pathname:"/eaten"})
