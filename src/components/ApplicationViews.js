@@ -9,7 +9,7 @@ export const ApplicationViews = () => {
     return (
         <>
 
-            <Route exact path="/">
+            <Route exact path="/Dive">
                 <MainPageList />
             </Route>
 
