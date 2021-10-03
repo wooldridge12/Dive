@@ -13,7 +13,7 @@ export const EatenPageList = () => {
         <div className="infoBoxEaten"></div>
         <button className="homeBtn"
             onClick={() => {
-                history.push({pathname:"/"})
+                history.push({pathname:"/Dive"})
             }}>HOME</button>
         </div>
     )
