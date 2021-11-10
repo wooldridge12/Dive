@@ -14,12 +14,27 @@ export const DecisionPageList = () => {
             }}> 
                 Up
             </button>
-            {/* <button className="leftBtn">
+            <button className="leftBtn" onClick={() => {
+                // setting variable random to the value of Math.random(); BUT I am getting decimal numbers. I need whole numbers. 
+                //SOOOO we use Math.floor to create a whole number to 
+                var random = Math.floor(Math.random() * 2) +1;
+                console.log(random)
+
+                //This is the functionality of what happens when the Math.random has ran and selected a number the the corrisponding case number and selected number will invoke which path is taken.
+                switch (random) {
+                    case 1:
+                        history.push({pathname:"/survived"})
+                        break;
+                    case 2:
+                        history.push({pathname:"/eaten"})
+                        break;
+                }
+            }}>
                 Left
             </button>
             <button className="rightBtn">
                 Right
-            </button> */}
+            </button>
             <button className="downBtn"
                 onClick={() => {
                     history.push({pathname:"/eaten"})
