@@ -6,8 +6,8 @@
 }
 .upBtn {
     background-color: #ff0000;
-    width: 10rem;
-    height: 3rem;
+    width: 10%;
+    height: 5%;
     border-radius: 8rem;
     font-size: xx-large;
     display: flex;
@@ -18,8 +18,8 @@
 }
 .leftBtn {
     background-color: #ff0000;
-    width: 10rem;
-    height: 3rem;
+    width: 10%;
+    height: 5%;
     border-radius: 8rem;
     font-size: xx-large;
     display: inline-block;
@@ -29,8 +29,8 @@
 }
 .downBtn {
     background-color: #ff0000;
-    width: 10rem;
-    height: 3rem;
+    width: 10%;
+    height: 5%;
     border-radius: 8rem;
     font-size: xx-large;
     display: flex;
@@ -40,8 +40,8 @@
 }
 .rightBtn {
     background-color: #ff0000;
-    width: 10rem;
-    height: 3rem;
+    width: 10%;
+    height: 5%;
     border-radius: 8rem;
     font-size: xx-large;
     display: inline-block;
