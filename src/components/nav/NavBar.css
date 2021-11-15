@@ -1,0 +1,12 @@
+.navbar {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    margin-top: 1rem;
+    background-color: red;
+}
+
+.nav-item {
+    flex-basis: 20%;
+    list-style-type: none;
+}
