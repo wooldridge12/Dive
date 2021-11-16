@@ -4,9 +4,18 @@
     justify-content: space-evenly;
     margin-top: 1rem;
     background-color: red;
+    border-radius: 2rem;
+    height: 1rem;
+    padding: 1%;
 }
 
 .nav-item {
     flex-basis: 20%;
     list-style-type: none;
+}
+
+.nav-btn {
+    color: red;
+    background-color: blue;
+    border-radius: 1rem;
 }
