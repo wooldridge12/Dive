@@ -55,12 +55,12 @@ export const Login = props => {
                     <fieldset style={{
                         textAlign:"center"
                     }}>
-                        <button className="btn btn-1 btn-sep icon-send" type="submit">Sign In</button>
+                        <button className="btn btn-1 btn-sep icon-send signin-btn" type="submit">Sign In</button>
                     </fieldset>
                 </form>
             </section>
             <section className="link--register">
-                <Link to="/register">Not a member yet?</Link>
+                <Link className="register-link" to="/register">Not a member yet?</Link>
             </section>
         </main>
     )
