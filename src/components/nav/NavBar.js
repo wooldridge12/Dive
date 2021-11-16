@@ -5,10 +5,13 @@ import "./NavBar.css"
 export const NavBar = (props) => {
     return (
         <ul className="navbar">
+            <li className="nav-item">
+                Thank you for playing DIVE
+            </li>
             {
                 (localStorage.getItem("lu_token") !== null) ?
                     <li className="nav-item">
-                        <button className="nav-link fakeLink"
+                        <button className="nav-link fakeLink nav-btn"
                             onClick={() => {
                                 localStorage.removeItem("dive_token")
                                 props.history.push({ pathname: "/" })
