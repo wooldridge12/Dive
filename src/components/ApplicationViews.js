@@ -4,10 +4,12 @@ import { MainPageList } from "./MainPage/MainPageList"
 import { DecisionPageList } from "./DecisionPage/DecisionPageList"
 import { SurvivedPageList } from "./SurvivedPage/SurvivedPageList"
 import { EatenPageList } from "./EatenPage/EatenPageList"
+import { SharkInfoProvider } from "./database/sharkInfo"
 
 export const ApplicationViews = () => {
     return (
         <>
+            <SharkInfoProvider>
 
             <Route exact path="/Dive">
                 <MainPageList />
@@ -25,6 +27,7 @@ export const ApplicationViews = () => {
                 <EatenPageList />
             </Route>
         
+            </SharkInfoProvider>
         </>
     )
 }

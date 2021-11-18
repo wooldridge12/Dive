@@ -12,7 +12,7 @@ export const NavBar = (props) => {
                 }}>HOME</button>
             </li>
             <li className="nav-item">
-                Thank you for playing DIVE
+                Thank you for playing <div className="dive-navbar">DIVE</div>
             </li>
             {
                 (localStorage.getItem("dive_token") !== null) ?
