@@ -20,7 +20,10 @@ export const EatenPageList = () => {
             {
                 facts.map(fact => {
                     return (
-                        <section key={`fact--${fact.id}`} className="sharkFacts">{fact.shark_fact_title}</section>
+                        <section key={`fact--${fact.id}`} className="sharkFacts">
+                            <div>{fact.shark_fact_title}</div>
+                        </section>
+                        
                     )
                 })
             }

@@ -20,9 +20,7 @@
     font-family: 'Creepster', cursive;
 }
 .infoBoxEaten {
-    /* width: 40rem; */
     width: 50%;
-    /* height: 15rem; */
     height: 20rem;
     background-color: red;
     margin-top: 45%;
