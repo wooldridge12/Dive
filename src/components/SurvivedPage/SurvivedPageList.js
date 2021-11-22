@@ -23,7 +23,8 @@ export const SurvivedPageList = () => {
                     facts.map(fact => {
                         return (
                             <section key={`fact--${fact.id}`} className="sharkFacts">
-                                <div>{fact.shark_fact_title}</div>
+                                <div className="sharkFactTitle">{fact.shark_fact_title}</div>
+                                <div className="sharkFact">{fact.shark_fact}</div>
                             </section>
                         )
                     })

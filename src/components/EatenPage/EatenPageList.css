@@ -34,3 +34,10 @@
 .sharkFacts {
     padding: 5%;
 }
+.sharkFactTitle {
+    font-size: xx-large;
+    font-weight: bolder;
+}
+.sharkFact {
+    font-size: larger;
+}
