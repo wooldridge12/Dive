@@ -23,7 +23,7 @@ export const SharkInfoProvider = (props) => {
                 facts,
                 getFacts
             }}>
-                {props.children}
-            </SharkInfoContext.Provider>
+            {props.children}
+        </SharkInfoContext.Provider>
     )
 }

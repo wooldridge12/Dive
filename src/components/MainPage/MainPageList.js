@@ -11,8 +11,9 @@ export const MainPageList = () => {
             <button className="jumpInBtn"
                     onClick={() => {
                         history.push({pathname:"/decisions"})
-                    }}>JUMP IN</button>
-                    -
+                    }}>JUMP IN
+            </button>
+            {/* This dash is here for the page to look better you can barely see it but it creates spaces under the jump in buuton */}-
         </div>
     )
 }
